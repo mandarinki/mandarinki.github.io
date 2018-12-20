@@ -173,6 +173,7 @@ form > div > label {
 	margin: auto;
 	  text-align: center;
 	  line-height: 30px;
+	  color: #00004a;
 }
 #op {
 	margin-top: 30px;
@@ -185,6 +186,7 @@ form > div > label {
 
 h1 {
 	font-size: 60px;
+	color: #0b5a0b;
 }
 
 .yy {
@@ -199,12 +201,6 @@ h1 {
 	
 }
 
-@media (max-width: 599px) {
-	.inner {
-		width: 400px;
-	}
-	
-}
 
 /* animation */
 
