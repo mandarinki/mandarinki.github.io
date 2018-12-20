@@ -147,7 +147,7 @@ form > div > label {
     width: 100%;
   }
 }
-/* center block */
+/* center block 
 .outer {
   display: table;
   position: absolute;
@@ -160,7 +160,7 @@ form > div > label {
 .middle {
   display: table-cell;
   vertical-align: middle;
-}
+}*/
 
 .inner {
   margin-left: auto;
