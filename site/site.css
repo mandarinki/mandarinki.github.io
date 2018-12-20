@@ -7,7 +7,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 body {
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 div {
   box-sizing: border-box;
@@ -107,47 +107,6 @@ a.hollow {
   z-index: 9;
 }
 
-form {
-  margin: 0;
-}
-
-form > div {
-  margin: 6px 0;
-}
-
-form > div > label { 
-  display: block;
-  margin: 0 0 2px 0;
-}
-
-.l {
-  width: 50%;
-  white-space: normal;
-  vertical-align: top;
-  display: inline-block;
-}
-
-.r {
-  width: 50%;
-  white-space: normal;
-  vertical-align: top;
-  display: inline-block;
-}
-
-
-@media (max-width: 850px) {
-  .l {
-    display: block;
-    width: 100%;
-    margin: 0 0 15px 0;
-  }
-  
-  .r {
-    display: block;
-    width: 100%;
-  }
-}
-
 .outer {
   display: table;
   position: absolute;
@@ -156,11 +115,11 @@ form > div > label {
   height: 100%;
   width: 100%;
 }
-
+/*
 .middle {
   display: table-cell;
   vertical-align: middle;
-}
+}*/
 
 .inner {
   margin-left: auto;
@@ -177,10 +136,21 @@ form > div > label {
 	  font-size: 20px;
 }
 
-
-#op {
-	margin-top: 30px;
+@media only screen and (min-width: 768px) {
+	#op {
+		margin-top: auto;
+	}
+	#credit {
+		margin-top: auto;
+	}
+	.yy {
+		padding-bottom: auto;
+	}
+	.fruit {
+	padding-top: 130px;}
 }
+
+
 
 #credit {
 	margin-top: 30px;
