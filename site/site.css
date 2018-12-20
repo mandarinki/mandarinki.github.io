@@ -115,11 +115,11 @@ a.hollow {
   height: 100%;
   width: 100%;
 }
-
+/*
 .middle {
   display: table-cell;
   vertical-align: middle;
-}
+}*/
 
 .inner {
   margin-left: auto;
@@ -129,11 +129,16 @@ a.hollow {
 }
 
 .inner p {
+	width: 550px;
 	margin: auto;
-	  text-align: center;
+	  text-align: justify;
 	  line-height: 30px;
 	  color: #00004a;
 	  font-size: 20px;
+}
+
+#llogo {
+	text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -146,11 +151,11 @@ a.hollow {
 	.yy {
 		padding-bottom: auto;
 	}
-	
+	.fruit {
+	padding-top: 130px;}
 }
 
-.fruit {
-	padding-top: 130px;}
+
 
 #credit {
 	margin-top: 30px;
