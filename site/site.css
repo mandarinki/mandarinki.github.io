@@ -225,10 +225,10 @@ h1 {
   -ms-animation: animationFrames linear 0.30s;
   -ms-animation-iteration-count: 1;
   -ms-transform-origin: 50% 50%;
-  -webkit-animation-delay: 2s;
+  /*-webkit-animation-delay: 2s;
     -moz-animation-delay: 2s;
     -o-animation-delay: 2s;
-    animation-delay: 2s;
+    animation-delay: 2s;*/
 }
 
 @keyframes animationFrames{
