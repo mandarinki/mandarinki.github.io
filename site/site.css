@@ -150,11 +150,16 @@ a.hollow {
 	.yy {
 		padding-bottom: auto;
 	}
-	.fruit {
-	padding-top: 130px;}
 }
 
-
+@media (min-width: 600px) {
+	.inner p {
+		width: auto;
+	}
+	.inner {
+		width: auto;
+	}
+}
 
 #credit {
 	margin-top: 30px;
