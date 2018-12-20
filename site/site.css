@@ -146,11 +146,11 @@ a.hollow {
 	.yy {
 		padding-bottom: auto;
 	}
-	.fruit {
-	padding-top: 130px;}
+	
 }
 
-
+.fruit {
+	padding-top: 130px;}
 
 #credit {
 	margin-top: 30px;
