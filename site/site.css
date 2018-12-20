@@ -174,14 +174,9 @@ form > div > label {
 	  text-align: center;
 	  line-height: 30px;
 	  color: #00004a;
-	  font-size: 25px;
+	  font-size: 20px;
 }
 
-@media only screen and (min-width: 768px) {
-	.inner p {
-		font-size: 18px;
-}
-}
 
 #op {
 	margin-top: 30px;
