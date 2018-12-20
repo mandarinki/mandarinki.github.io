@@ -7,7 +7,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 body {
-  /*overflow-x: hidden;*/
+  overflow-x: scroll;
 }
 div {
   box-sizing: border-box;
@@ -124,7 +124,6 @@ a.hollow {
 .inner {
   margin-left: auto;
   margin-right: auto;
-  margin-top: -10%;
   width: 600px;
 }
 
