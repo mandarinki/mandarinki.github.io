@@ -3,7 +3,7 @@ window.ConfettiGenerator = function(params) {
   // Defaults
   var appstate = {
     target: 'confetti-holder', // Id of the canvas
-    max: 80, // Max itens to render
+    max: 40, // Max itens to render
     size: 2, // prop size
     animate: true, // Should aniamte?
     props: ['circle', 'triangle', {"type":"svg","src":"site/mandarinki.svg","size":25,"weight":0.2}], // Types of confetti
@@ -104,11 +104,18 @@ window.ConfettiGenerator = function(params) {
         break;  
       }
       case 'triangle': {
-        ctx.moveTo(p.x, p.y);
+        /*ctx.moveTo(p.x, p.y);
         ctx.lineTo(p.x + (p.angles[0] * appstate.size), p.y + (p.angles[1] * appstate.size));
         ctx.lineTo(p.x + (p.angles[2] * appstate.size), p.y + (p.angles[3] * appstate.size));
         ctx.closePath();
-        ctx.fill();
+        ctx.fill();*/
+		ctx.save();
+        var image = new Image();
+        image.src = "site/snowflake.svg";
+        var size = 10 || 15;
+        ctx.translate(p.x + size / 2, p.y + size / 2);
+        ctx.drawImage(image, -(size/2) * appstate.size, -(size/2) * appstate.size, size * appstate.size, size * appstate.size);
+        ctx.restore();
         break;
       }
       case 'line':{

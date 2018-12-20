@@ -1,7 +1,7 @@
 var AppClass = function() {
   var appstate = {
     target: 'confetti-holder', // Id of the canvas
-    max: 80, // Max itens to render
+    max: 40, // Max itens to render
     size: 2, // prop size
     animate: true, // Should aniamte?
     props: ['circle', 'triangle', {"type":"svg","src":"site/mandarinki.svg","size":25,"weight":0.2}], // Types of confetti
@@ -16,7 +16,7 @@ var AppClass = function() {
   var confetti = null;
 
   //
-  var updateForm = function() {
+    var updateForm = function() {
     document.getElementById('canvas-id').value = appstate.target;
     document.getElementById('max-confetti').value = appstate.max;
     document.getElementById('clock').value = appstate.clock;

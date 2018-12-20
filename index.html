@@ -1,17 +1,30 @@
 <html>
   <head>
   <meta charset="utf8">
-  <title>Компания "Мандаринки-Экспресс" поздравляет с Новым Годом!</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-
     <link rel="stylesheet" href="site/site.css" />
   </head>
   <body>
-	<p style="position:absolute; top: 35%; left:30%;">Тут текст поздравления (и отцентрировать) (оранжевый и зеленый в палитре)
-	<br />
-	Еще анимация мандаринки на цифры, которая сейчас сломалась и я ее чиню</p>
-    <canvas id="confetti-holder"></canvas>
+	<div class="outer">
+	  <div class="middle">
+		<div class="inner">
+		  
+		  <h1 class="year">Фруктового 2<img src="site/mandarinki.svg" width="60px" height="auto" class="mandarin" />19 года!</h1>
+		  
+		  <p>Ю-ху, друзья! С новым годом!</p>
+<p>Мы с вами неплохо потрудились в этом году, правда? </p>
+
+<p>Мы росли вместе с вами, мы вдохновлялись вашими успехами и вдохновляли вас, вы доверяли нам, а мы помогали вам оставаться особенными.</p>
+
+<p>Желаем, чтобы этот год подарил вам новые большие возможности и перспективы для процветания и успеха!</p>
+
+<p>Всегда с вами, команда «Мандаринки Экспресс»  </p>
+		</div>
+	  </div>
+	</div>
+    <canvas id="confetti-holder" style="
+    background-color: #488a2b;"></canvas>
     <div id="settings" style="display: none;">
       <h2>Settings</h2>
       <div class="l">
@@ -91,5 +104,6 @@
     <script type="text/javascript" src="dist/index.js"></script>
     <!-- Starting site logic -->
     <script type="text/javascript" src="site/site.js"></script>
+	<script type="text/javascript" src="dist/rest.js"></script>
   </body>
 </html>
