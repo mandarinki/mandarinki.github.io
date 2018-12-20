@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
   margin: 5px 0 5px 0;
-  text-align: justify;
+
 }
 
 pre {
@@ -165,28 +165,52 @@ form > div > label {
 .inner {
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
-  /*whatever width you want*/
+  margin-top: -10%;
+  width: 600px;
 }
 
 .inner p {
-	max-width:400px;
 	margin: auto;
-	font-style: bold;
+	  text-align: center;
+	  line-height: 30px;
+}
+#op {
+	margin-top: 30px;
+}
+
+#credit {
+	margin-top: 30px;
+	font-style: italic;
 }
 
 h1 {
 	font-size: 60px;
 }
 
+.yy {
+	margin-top: -20px;
+}
+
+.year {
+	font-size: 100px;
+}
+#confetti-holder {
+    /*background-color: #488a2b;*/
+	
+}
+
+@media (max-width: 599px) {
+	.inner {
+		width: 400px;
+	}
+	
+}
+
 /* animation */
 
 .mandarin{
+	margin-bottom:-5px;
   animation: animationFrames linear 0.30s;
-  -webkit-animation-delay: 5s;
-    -moz-animation-delay: 5s;
-    -o-animation-delay: 5s;
-    animation-delay: 5s;
   animation-iteration-count: 1;
   transform-origin: 50% 50%;
   -webkit-animation: animationFrames linear 0.30s;
@@ -201,6 +225,10 @@ h1 {
   -ms-animation: animationFrames linear 0.30s;
   -ms-animation-iteration-count: 1;
   -ms-transform-origin: 50% 50%;
+  -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
 }
 
 @keyframes animationFrames{
