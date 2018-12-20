@@ -124,6 +124,7 @@ a.hollow {
 .inner {
   margin-left: auto;
   margin-right: auto;
+  margin-top: -1%;
   width: 600px;
 }
 
