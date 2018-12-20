@@ -115,11 +115,11 @@ a.hollow {
   height: 100%;
   width: 100%;
 }
-/*
+
 .middle {
   display: table-cell;
   vertical-align: middle;
-}*/
+}
 
 .inner {
   margin-left: auto;
