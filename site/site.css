@@ -161,7 +161,35 @@ a.hollow {
 		width: 600px;
 	}
 	
+	.year {
+	font-size: 100px;
+	}
+
+	h1 {
+		font-size: 60px;
+		
+	}
+	
+	#mandarin {
+		width: 100px;
+	}
+	
 }
+
+h1 {
+	color: #0b5a0b;
+	font-size: 40px;
+}
+
+.year {
+	font-size: 70px;
+}
+
+#mandarin {
+	width: 70px;
+	height: auto;
+}
+
 
 @media (max-width: 450px) {
 	#logo {
@@ -176,19 +204,16 @@ a.hollow {
 	font-style: italic;
 }
 
-h1 {
-	font-size: 60px;
-	color: #0b5a0b;
-}
+
+
+
 
 .yy {
 	margin-top: -20px;
 	padding-bottom: 30px;
 }
 
-.year {
-	font-size: 100px;
-}
+
 #confetti-holder {
     /*background-color: #488a2b;*/
 	
