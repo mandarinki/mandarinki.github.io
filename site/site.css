@@ -163,6 +163,13 @@ a.hollow {
 	
 }
 
+@media (max-width: 450px) {
+	#logo {
+		width: auto;
+		max-width: 400px;
+	}
+}
+
 
 #credit {
 	margin-top: 30px;
@@ -189,6 +196,8 @@ h1 {
 
 #logo {
 	padding-top: 30px;
+	width: 400px;
+	
 }
 
 /* animation */
