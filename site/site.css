@@ -134,7 +134,7 @@ a.hollow {
 	  text-align: justify;
 	  line-height: 30px;
 	  color: #00004a;
-	  font-size: 20px;
+	  font-size: 18px
 }
 
 #llogo {
@@ -151,11 +151,16 @@ a.hollow {
 	.yy {
 		padding-bottom: auto;
 	}
+	.inner p {
+		font-size: 18px;
+	}
 }
 
 @media (max-width: 600px) {
 	.inner p {
 		width: auto;
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 	.inner {
 		width: auto;
