@@ -125,16 +125,17 @@ a.hollow {
   margin-left: auto;
   margin-right: auto;
   margin-top: -1%;
-  width: 600px;
+  width: auto;
 }
 
 .inner p {
-	width: 550px;
+	width: auto;
+		padding-left: 25px;
+		padding-right: 25px;
 	margin: auto;
 	  text-align: justify;
 	  line-height: 30px;
 	  color: #00004a;
-	  font-size: 18px
 }
 
 #llogo {
@@ -153,19 +154,15 @@ a.hollow {
 	}
 	.inner p {
 		font-size: 18px;
+		width: 550px;
 	}
+	
+	.inner {
+		width: 600px;
+	}
+	
 }
 
-@media (max-width: 600px) {
-	.inner p {
-		width: auto;
-		padding-left: 25px;
-		padding-right: 25px;
-	}
-	.inner {
-		width: auto;
-	}
-}
 
 #credit {
 	margin-top: 30px;
