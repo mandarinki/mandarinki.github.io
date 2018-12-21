@@ -166,7 +166,7 @@ a.hollow {
 @media (max-width: 450px) {
 	#logo {
 		width: auto;
-		max-width: 400px;
+		max-width: 80%;
 	}
 }
 
