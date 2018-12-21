@@ -142,7 +142,7 @@ a.hollow {
 	text-align: center;
 }
 
-@media only screen and (min-width: 766px) {
+@media only screen and (min-width: 768px) {
 	#op {
 		margin-top: auto;
 	}
@@ -161,33 +161,20 @@ a.hollow {
 		width: 600px;
 	}
 	
-	.year {
+}
+
+.year {
 	font-size: 100px;
 	}
 
 	h1 {
 		font-size: 60px;
-		
+		color: #0b5a0b;
 	}
 	
-	#mandarin {
-		width: 100px;
-	}
-	
-}
-
-h1 {
-	color: #0b5a0b;
-	font-size: 40px;
-}
-
-.year {
-	font-size: 70px;
-}
-
 #mandarin {
-	width: 70px;
-	height: auto;
+		width: 100px;
+		height: auto;
 }
 
 
@@ -195,6 +182,20 @@ h1 {
 	#logo {
 		width: auto;
 		max-width: 80%;
+	}
+	
+	h1 {
+		
+		font-size: 40px;
+	}
+
+	.year {
+		font-size: 70px;
+	}
+
+	#mandarin {
+		width: 70px;
+		
 	}
 }
 
